@@ -36,6 +36,7 @@ class AbrpApi:
                 'current': charge_status.get_current(),
                 'is_charging': vehicle_status.is_charging(),
                 'is_parked': vehicle_status.is_parked(),
+                'car_model': 'mg:mg4:22:64:luxury',
             }
 
             basic_vehicle_status = vehicle_status.get_basic_vehicle_status()
